@@ -5,7 +5,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     color: white;
 }
 
@@ -92,6 +92,8 @@ body{
     margin-left: 250px;
     margin-right: 6px;
     overflow: hidden;
+    padding: auto;
+    font-family: sans-serif;    
 }
 
 @media (width < 920px){
@@ -135,7 +137,7 @@ body{
 .menu-mobile-active{
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     z-index: 99;
     position: fixed;
     top: 0;
